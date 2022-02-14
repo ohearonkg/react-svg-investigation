@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate:svgr": "rollup -c svgr-rollup.config.js"
+    "build": "svgr --config-file='.svgrrc.json' --out-dir=dist --index-template=src/svgr-index-template.js -- ../../icons"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@svgr/rollup": "^6.2.1",
-    "rollup": "^2.67.2"
+    "@svgr/cli": "^6.2.1"
   }
 }
