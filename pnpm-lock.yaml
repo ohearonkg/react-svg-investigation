@@ -5,7 +5,7 @@ importers:
   .:
     specifiers: {}
 
-  packages/inline-consumer-example:
+  packages/import-consumer-example:
     specifiers:
       '@testing-library/jest-dom': ^5.16.2
       '@testing-library/react': ^12.1.2
@@ -35,6 +35,34 @@ importers:
       web-vitals: 2.1.4
     devDependencies:
       serve: 13.0.2
+
+  packages/inline-consumer-example:
+    specifiers:
+      '@testing-library/jest-dom': ^5.16.2
+      '@testing-library/react': ^12.1.2
+      '@testing-library/user-event': ^13.5.0
+      '@types/jest': ^27.4.0
+      '@types/node': ^16.11.25
+      '@types/react': ^17.0.39
+      '@types/react-dom': ^17.0.11
+      react: ^17.0.2
+      react-dom: ^17.0.2
+      react-scripts: 5.0.0
+      typescript: ^4.5.5
+      web-vitals: ^2.1.4
+    dependencies:
+      '@testing-library/jest-dom': 5.16.2
+      '@testing-library/react': 12.1.2_react-dom@17.0.2+react@17.0.2
+      '@testing-library/user-event': 13.5.0
+      '@types/jest': 27.4.0
+      '@types/node': 16.11.25
+      '@types/react': 17.0.39
+      '@types/react-dom': 17.0.11
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-scripts: 5.0.0_react@17.0.2+typescript@4.5.5
+      typescript: 4.5.5
+      web-vitals: 2.1.4
 
   packages/svgr-consumer-example:
     specifiers:
