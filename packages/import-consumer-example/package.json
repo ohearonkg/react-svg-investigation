@@ -1,5 +1,5 @@
 {
-  "name": "inline-consumer-example",
+  "name": "import-consumer-example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
